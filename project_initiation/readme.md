@@ -34,6 +34,43 @@ Project Manager (PM)
     └── Documentation & Training Lead
 ```
 
+### Example Org Chart
+
+```mermaid 
+graph TB
+    SPONSOR[Sponsor - Senior Manager]
+
+    SC[Steering Committee]
+    SC1[Functional Leader]
+    SC2[Senior Manager]
+    SC3[Functional Leader]
+
+    SC --> SC1
+    SC --> SC2
+    SC --> SC3
+
+    PM[Project Manager - Steve]
+
+    SPONSOR --> PM
+    SC --> PM
+
+    PM --> BE[Back-End Development]
+    PM --> FE[Front-End Development]
+    PM --> TR[Training and Enablement]
+
+    BE --> BE1[Software Engineer]
+    BE --> BE2[Software Engineer]
+    BE --> BE3[Quality Tester]
+
+    FE --> FE1[Software Engineer]
+    FE --> FE2[UX Designer]
+    FE --> FE3[Accessibility Consultant]
+
+    TR --> TR1[Technical Writer]
+    TR --> TR2[Trainer]
+
+```
+
 ---
 
 ## 3️⃣ Role Assignment (Students)
