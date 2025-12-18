@@ -3,7 +3,6 @@ Project+ PK0-005
 Context: Mobile App Development Project
 
 ---
-
 ## Introduction: Why Risk Is Not the Enemy
 
 In project management, risk is often misunderstood as something negative that must be avoided at all costs.  
